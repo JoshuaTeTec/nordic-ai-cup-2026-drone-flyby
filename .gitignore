@@ -1,0 +1,39 @@
+
+# ==============================
+# 1. Poids des modèles YOLO
+# ==============================
+*.pt
+*.pkl
+
+# ==============================
+# 2. Datasets et images générées
+# ==============================
+dataset_*/
+backgrounds_urbains/
+dataset_rogner/
+assets/raw_data/  # Si jamais tu ajoutes des données brutes plus tard
+
+# ==============================
+# 3. Dossiers d'entraînement Ultralytics
+# ==============================
+runs/
+yolov8n*.pt
+
+# ==============================
+# 4. Fichiers système et Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+Pipfile.lock
+
+# macOS / Windows junk files
+.DS_Store
+Thumbs.db
+
+src/helsinki/images/
